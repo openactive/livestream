@@ -1,22 +1,10 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
 <html>
-<head>
-  <title>OpenActive Live Stream</title>
-  <style>
-   .menu {
-      float:left;
-      width:20%;
-      height:80%;
-    }
-    .mainContent {
-      float:left;
-      width:75%;
-      height:80%;
-    }
-  </style>
-</head>
-<body>
-  <iframe src="https://www.youtube-nocookie.com/embed/a2FdmspmCNk?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <iframe class="mainContent" src="https://app2.sli.do/event/indstaz2"></iframe>
-</body>
+    <head>
+        <title>OpenActive Live Stream</title>
+    </head>
+    <frameset framespacing="0" cols="*,350" frameborder="0" noresize>
+        <frame name="left" src="https://www.youtube-nocookie.com/embed/a2FdmspmCNk">
+        <frame name="main" src="https://app2.sli.do/event/indstaz2" target="main">
+    </frameset>
 </html>
